@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "clasp push --watch"
+    "dev": "clasp push --watch",
+    "deploy": "clasp deploy -i AKfycbxEl0DofOYkHw0P-wtaucaRFYFmq6hkMZZ0xQUNO-2E4XCz3XLqQuRox7Pep4ETGOkZ"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/google-apps-script": "^1.0.83"
+    "@google-cloud/local-auth": "^2.1.0",
+    "@types/google-apps-script": "^1.0.83",
+    "googleapis": "^105.0.0"
   }
 }
