@@ -3,3 +3,5 @@ node_modules
 
 # GAS
 .clasp.json
+.clasprc.json
+creds.json
